@@ -1,4 +1,6 @@
-xamarin_mmvm_android_app
+
+# Sample Android App by xamarin + mvvm and reference step by step tutorials.
+
 
 Install Visual Studio 2015 SP2 with Xamarin
 
