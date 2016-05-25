@@ -35,3 +35,32 @@ Install Visual Studio 2015 SP2 with Xamarin
 - Friendly Reminder
 	-If Visual Studio stop on step "Preparing virtual machine..." for a long time , you should close Emulator(if there have any Emulator opened already) and close Visual Studio > re-open Project > Re-Build > Debug(F5) again..
 	-If Emulator open but did not into debuging mode > Cancel Build > Debug(F5) again..
+
+
+#Note
+
+Core: 
+FirstViewModel.cs => Name { get; set; }
+
+Android:
+FirstView.axml
+FirstView.cs
+
+
+    //below means:
+    RegisterAppStart<ViewModels.FirstViewModel>();
+
+    FirstViewModel
+        (will looking for) |> FirstView
+
+    MyViewModel
+        (will looking for) |> MyView
+
+
+##Action-1
+Create two check box and bind with  local:MvxBind="{control property name} {viewmodel property name}"
+
+##Action-2
+show boolean value in Textbox
+
+

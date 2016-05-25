@@ -4,16 +4,35 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-  <EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:textSize="40dp"
-    local:MvxBind="Text Hello"
-    />
-  <TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:textSize="40dp"
-    local:MvxBind="Text Hello"
-    />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        local:MvxBind="Text Hello" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        local:MvxBind="Text Hello" />
+<!--##Action-1-->
+    <CheckBox
+        android:text="This is checkbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        local:MvxBind="Checked IsCheck" />
+    <CheckBox
+        android:text="This is checkbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        local:MvxBind="Checked IsCheck" />
+<!--##Action-2-->
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        local:MvxBind="Text IsCheck" />
 </LinearLayout>
